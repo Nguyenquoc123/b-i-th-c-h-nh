@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.tieude1{
+    list-style: none;
+    background-color: rgb(245, 252, 253);
+    position: relative;
+}
+.anh1{
+    width: 140px;
+    height: auto;
+    margin-left: 30px;
+   
+}
+.tieude1 ul li{
+    display: inline-table;
+    margin-left: 30px;
+    
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: blue;
+    text-decoration:underline;
+}
+.tieude1 ul{
+    position: absolute;
+    top:20px;
+    right: 7em;
+    
+}
+.tieude2 img{
+    width: 100%;
+   height: 400px;
+    
+}
+.tieude3{
+    width: 90%;
+    min-height: 180px;
+   
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+.b1 img{
+   width: 100%;
+  
+   min-height: 180px;
+    
+}
+.b1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    position: absolute;
+    bottom: 25px;
+    
+}
+.t{
+    display: flex;
+    justify-content:center ;
+}
+.t h2{
+    width: 90%;
+    
+   margin-top: 10px;
+  
+   color: rgb(18, 22, 21);
+   
+   
+}
+.content{
+    width: 90%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nd1 img{
+    
+    width:100%;
+    min-height: 200px;
+    
+}
+
+.ndcuoi{
+    margin-top: 40px;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top: 30px;
+   background-color: rgb(219, 241, 19);
+   position: relative;
+   
+    
+}
+.cuoi1{
+    width: 33%;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    
+}
+.cuoi1 ul li{
+    list-style: none;
+    font-weight: bold;
+    
+    
+}
+.item2{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cuoi11{
+    padding-left: 20px;
+    
+    
+}
+
+.nd1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.item1{
+    position: absolute;
+    bottom: 30px;
+    
+}
+.item1  a{
+    color: rgb(245, 255, 254);
+}
+.item1 a:hover{
+    color: rgb(16, 226, 51);
+}
+.item3{
+    width: 25%;
+    padding-left: 0px;
+}
